@@ -1,0 +1,8 @@
+Hydra rooms.go:71: Starting chat room HydraChat
+Hydra hydrachat.go:56: Received request from client 127.0.0.1:58075
+Hydra rooms.go:34: Adding client 127.0.0.1:58075
+Hydra hydrachat.go:56: Received request from client 127.0.0.1:58079
+Hydra rooms.go:34: Adding client 127.0.0.1:58079
+Hydra clients.go:27: Jeff:asddsadasdasdasd 
+Hydra clients.go:27: Greg:dsadsadasdasdasd 
+Hydra hydrachat.go:46: Error accepting connection form chat client accept tcp [::]:2300: use of closed network connection
