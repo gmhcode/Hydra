@@ -1,12 +1,13 @@
 package hydrachat
 
 import (
-	"Hydra/hlogger"
 	"fmt"
 	"net"
 	"os"
 	"os/signal"
 	"syscall"
+
+	"github.com/Hydra/hlogger"
 )
 
 var logger = hlogger.GetInstance()

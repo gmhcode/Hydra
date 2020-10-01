@@ -1,9 +1,10 @@
 package main
 
 import (
-	"Hydra/hlogger"
 	"fmt"
 	"net/http"
+
+	"github.com/Hydra/hlogger"
 )
 
 func main() {

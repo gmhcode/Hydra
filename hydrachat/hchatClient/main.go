@@ -42,5 +42,4 @@ func main() {
 		msg := scanner.Text()
 		_, err = fmt.Fprintf(conn, name+msg+"\n")
 	}
-
 }
