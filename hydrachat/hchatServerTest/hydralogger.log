@@ -1,0 +1,195 @@
+Hydra rooms.go:72: Starting chat room HydraChat
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49110
+Hydra rooms.go:34: Adding client 127.0.0.1:49110
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49112
+Hydra rooms.go:34: Adding client 127.0.0.1:49112
+Hydra clients.go:27: hello
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49114
+Hydra rooms.go:34: Adding client 127.0.0.1:49114
+Hydra clients.go:27: hello
+Hydra clients.go:27: hello
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49116
+Hydra rooms.go:34: Adding client 127.0.0.1:49116
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49118
+Hydra rooms.go:34: Adding client 127.0.0.1:49118
+Hydra clients.go:27: hello
+Hydra clients.go:27: hello
+Hydra clients.go:27: hello
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49120
+Hydra rooms.go:34: Adding client 127.0.0.1:49120
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49122
+Hydra rooms.go:34: Adding client 127.0.0.1:49122
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49124
+Hydra rooms.go:34: Adding client 127.0.0.1:49124
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49126
+Hydra rooms.go:34: Adding client 127.0.0.1:49126
+Hydra clients.go:27: a
+Hydra clients.go:27: a
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49128
+Hydra rooms.go:34: Adding client 127.0.0.1:49128
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49130
+Hydra rooms.go:34: Adding client 127.0.0.1:49130
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49132
+Hydra rooms.go:34: Adding client 127.0.0.1:49132
+Hydra clients.go:27: asd
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49134
+Hydra rooms.go:34: Adding client 127.0.0.1:49134
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49136
+Hydra rooms.go:34: Adding client 127.0.0.1:49136
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49138
+Hydra rooms.go:34: Adding client 127.0.0.1:49138
+Hydra clients.go:27: A
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49140
+Hydra rooms.go:34: Adding client 127.0.0.1:49140
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49142
+Hydra rooms.go:34: Adding client 127.0.0.1:49142
+Hydra clients.go:27: asc
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49144
+Hydra rooms.go:34: Adding client 127.0.0.1:49144
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49146
+Hydra rooms.go:34: Adding client 127.0.0.1:49146
+Hydra clients.go:27: s
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49148
+Hydra rooms.go:34: Adding client 127.0.0.1:49148
+Hydra clients.go:27: s
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49150
+Hydra rooms.go:34: Adding client 127.0.0.1:49150
+Hydra clients.go:27: a
+Hydra clients.go:27: saaa
+Hydra rooms.go:56: Removing client 
+Hydra clients.go:27: aaaa
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49152
+Hydra rooms.go:34: Adding client 127.0.0.1:49152
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49154
+Hydra rooms.go:34: Adding client 127.0.0.1:49154
+Hydra clients.go:27: a
+Hydra clients.go:27: aaa
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49156
+Hydra rooms.go:34: Adding client 127.0.0.1:49156
+Hydra clients.go:27: as
+Hydra clients.go:27: a
+Hydra clients.go:27: a
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49158
+Hydra rooms.go:34: Adding client 127.0.0.1:49158
+Hydra clients.go:27: a
+Hydra clients.go:27: a
+Hydra clients.go:27: aaaas
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49160
+Hydra rooms.go:34: Adding client 127.0.0.1:49160
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49162
+Hydra rooms.go:34: Adding client 127.0.0.1:49162
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49164
+Hydra rooms.go:34: Adding client 127.0.0.1:49164
+Hydra clients.go:27: s
+Hydra clients.go:27: aass
+Hydra clients.go:27: ss
+Hydra clients.go:27: s
+Hydra clients.go:27: ss
+Hydra clients.go:27: ss
+Hydra clients.go:27: s
+Hydra clients.go:27: s
+Hydra clients.go:27: ss
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49166
+Hydra rooms.go:34: Adding client 127.0.0.1:49166
+Hydra clients.go:27: a
+Hydra clients.go:27: d
+Hydra clients.go:27: saass
+Hydra rooms.go:56: Removing client 
+Hydra clients.go:27: aaals
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49168
+Hydra rooms.go:34: Adding client 127.0.0.1:49168
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49170
+Hydra rooms.go:34: Adding client 127.0.0.1:49170
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49172
+Hydra rooms.go:34: Adding client 127.0.0.1:49172
+Hydra clients.go:27: a
+Hydra clients.go:27: s
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49174
+Hydra rooms.go:34: Adding client 127.0.0.1:49174
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49176
+Hydra rooms.go:34: Adding client 127.0.0.1:49176
+Hydra clients.go:27: a
+Hydra clients.go:27: ss
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49178
+Hydra rooms.go:34: Adding client 127.0.0.1:49178
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49180
+Hydra rooms.go:34: Adding client 127.0.0.1:49180
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49182
+Hydra rooms.go:34: Adding client 127.0.0.1:49182
+Hydra clients.go:27: a
+Hydra clients.go:27: a
+Hydra clients.go:27: a
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49184
+Hydra rooms.go:34: Adding client 127.0.0.1:49184
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49186
+Hydra rooms.go:34: Adding client 127.0.0.1:49186
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49188
+Hydra rooms.go:34: Adding client 127.0.0.1:49188
+Hydra clients.go:27: z
+Hydra clients.go:27: x
+Hydra clients.go:27: x
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49190
+Hydra rooms.go:34: Adding client 127.0.0.1:49190
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49192
+Hydra rooms.go:34: Adding client 127.0.0.1:49192
+Hydra clients.go:27: a
+Hydra clients.go:27: a
+Hydra clients.go:27: x
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49194
+Hydra rooms.go:34: Adding client 127.0.0.1:49194
+Hydra clients.go:27: a
+Hydra clients.go:27: a
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49196
+Hydra rooms.go:34: Adding client 127.0.0.1:49196
+Hydra clients.go:27: 
+Hydra clients.go:27: a
+Hydra clients.go:27: a
+Hydra clients.go:27: add
+Hydra clients.go:27: d
+Hydra rooms.go:56: Removing client 
+Hydra hydrachat.go:60: Received request from client 127.0.0.1:49198
+Hydra rooms.go:34: Adding client 127.0.0.1:49198
+Hydra clients.go:27: a
+Hydra clients.go:27: a
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 
+Hydra rooms.go:56: Removing client 

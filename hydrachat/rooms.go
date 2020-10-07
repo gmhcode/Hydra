@@ -33,6 +33,7 @@ func (r *room) AddClient(c io.ReadWriteCloser) {
 	if v, ok := c.(net.Conn); ok {
 		logger.Println("Adding client", v.RemoteAddr())
 	}
+	//lock this for writing to our clients dict
 	r.Lock()
 	wc, done := StartClient(r.Msgch, c, r.Quit)
 	r.clients[wc] = struct{}{}
@@ -69,8 +70,11 @@ func (r *room) RemoveClient(wc chan<- string) {
 
 func (r *room) Run() {
 	logger.Println("Starting chat room", r.name)
+	//this loop runs forever on the background
 	go func() {
 		// when the r.Msgch receives a msg, this will fire and broafcast the message
+		fmt.Println("didnt enter message loop yet: ", len(r.Msgch))
+
 		for msg := range r.Msgch {
 			r.broadcastMsg(msg)
 		}
@@ -81,6 +85,7 @@ func (r *room) broadcastMsg(msg string) {
 	r.RLock()
 	defer r.RUnlock()
 	fmt.Println("Received message: ", msg)
+	//This writes it to all the other clients
 	for writeChannel, _ := range r.clients {
 		go func(writeChannel chan<- string) {
 			writeChannel <- msg

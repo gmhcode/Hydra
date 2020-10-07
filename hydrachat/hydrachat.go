@@ -22,6 +22,7 @@ func Run(connection string) error {
 
 	room := CreateRoom("HydraChat")
 
+	//monitors the OS to see if it should close the app
 	go func() {
 		//Monitoring this channel to see if a program is closing
 		channel := make(chan os.Signal)
@@ -41,8 +42,10 @@ func Run(connection string) error {
 	}()
 
 	for {
+		//Blocks the rest of the loop
 		//listens for when someone tries to connect to our server
 		conn, err := listener.Accept()
+
 		if err != nil {
 			logger.Println("Error accepting connection form chat client", err)
 			break
