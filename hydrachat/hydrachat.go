@@ -12,6 +12,7 @@ import (
 
 var logger = hlogger.GetInstance()
 
+// Run - Starts the hydrachat server
 func Run(connection string) error {
 	listener, err := net.Listen("tcp", connection)
 
@@ -22,7 +23,7 @@ func Run(connection string) error {
 
 	room := CreateRoom("HydraChat")
 
-	//monitors the OS to see if it should close the app
+	//Monitors the OS to see if it should close the app
 	go func() {
 		//Monitoring this channel to see if a program is closing
 		channel := make(chan os.Signal)
