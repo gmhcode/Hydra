@@ -1,3 +1,15 @@
-Hydra main.go:11: Starting Hydra web service
-Hydra main.go:22: Received an http Get request on root url
-Hydra main.go:22: Received an http Get request on root url
+Hydra rooms.go:72: Starting chat room HydraChat
+Hydra hydrachat.go:61: Received request from client 127.0.0.1:63938
+Hydra rooms.go:34: Adding client 127.0.0.1:63938
+Hydra clients.go:27: Anonymous73:RandomMessage 127
+Hydra clients.go:27: Anonymous73:RandomMessage 139
+Hydra clients.go:27: Anonymous73:RandomMessage 235
+Hydra clients.go:27: Anonymous73:RandomMessage 187
+Hydra clients.go:27: Anonymous73:RandomMessage 322
+Hydra clients.go:27: Anonymous73:RandomMessage 21
+Hydra clients.go:27: Anonymous73:RandomMessage 62
+Hydra clients.go:27: Anonymous73:RandomMessage 333
+Hydra clients.go:27: Anonymous73:RandomMessage 319
+Hydra clients.go:27: Anonymous73:RandomMessage 264
+Hydra clients.go:27: Anonymous73:RandomMessage 301
+Hydra rooms.go:56: Removing client 

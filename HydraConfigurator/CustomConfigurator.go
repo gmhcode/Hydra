@@ -73,6 +73,7 @@ func MarshalCustomConfig(value reflect.Value, filename string) error {
 
 	for scanner.Scan() {
 		line := scanner.Text()
+
 		fmt.Println("\nProcessing Line", line)
 		// prints
 		// Processing Line testString|hello world;string
@@ -136,6 +137,7 @@ func MarshalCustomConfig(value reflect.Value, filename string) error {
 
 		if name == "" {
 			name = fieldType.Name
+			// TS
 		}
 
 		if value, ok := fields[name]; ok {
