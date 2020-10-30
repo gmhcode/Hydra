@@ -26,15 +26,19 @@ func chatServerFunc(t *testing.T) func() {
 }
 
 func TestRun(t *testing.T) {
-	go func() {
-		t.Log("Starting Hydra chat server...")
-		if err := Run(":2300"); err != nil {
-			t.Error("Could not start chat server", err)
-			return
-		} else {
-			t.Log("Started Hydra chat server...")
-		}
-	}()
+	if testing.Short() {
+		t.Skip("Skipping test in short mode...")
+	}
+	go once.Do(chatServerFunc(t))
+	// go func() {
+	// 	t.Log("Starting Hydra chat server...")
+	// 	if err := Run(":2300"); err != nil {
+	// 		t.Error("Could not start chat server", err)
+	// 		return
+	// 	} else {
+	// 		t.Log("Started Hydra chat server...")
+	// 	}
+	// }()
 
 	time.Sleep(1 * time.Second)
 	rand.Seed(time.Now().UnixNano())
