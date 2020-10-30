@@ -16,7 +16,7 @@ var once sync.Once
 func chatServerFunc(t *testing.T) func() {
 	return func() {
 		t.Log("Starting Hydra chat server...")
-		if err := Run(":2300"); err != nil {
+		if err := Run("localhost:2300"); err != nil {
 			t.Error("Could not start chat server ", err)
 			return
 		} else {
@@ -41,7 +41,7 @@ func TestRun(t *testing.T) {
 	name := fmt.Sprintf("Anonymous%d", rand.Intn(400))
 
 	t.Logf("Hello %s, connecting to the hydra chat system.... \n", name)
-	conn, err := net.Dial("tcp", "127.0.0.1:2300")
+	conn, err := net.Dial("tcp", "localhost:2300")
 	if err != nil {
 		t.Fatal("Could not connect to hydra chat system", err)
 	}
@@ -70,9 +70,9 @@ func TestRun(t *testing.T) {
 		if err != nil {
 			t.Error(err)
 			return
+			//t.Fatal("error")
 		}
 		msgCh <- msg
-
 	}
 }
 
