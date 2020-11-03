@@ -17,7 +17,7 @@ type ConfS struct {
 //Tests to make sure everything was decoded correctly fromt he various file types
 func main() {
 	configstruct := new(ConfS)
-	HydraConfigurator.GetConfiguration(HydraConfigurator.JSON, configstruct, "configfile.json")
+	HydraConfigurator.GetConfiguration(HydraConfigurator.XML, configstruct, "configfile.xml")
 	// HydraConfigurator.GetConfiguration(HydraConfigurator.CUSTOM, configstruct, "configfile.conf")
 	fmt.Println(*configstruct)
 	if configstruct.TB {
