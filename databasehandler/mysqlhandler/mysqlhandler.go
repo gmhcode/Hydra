@@ -19,6 +19,7 @@ type crewMember struct {
 type Crew []crewMember
 
 func main() {
+	// mysql server username and pw
 	db, err := sql.Open("mysql", "root:password@/hydra?parseTime=true")
 	if err != nil {
 		log.Fatal("Could not connect, error", err.Error())

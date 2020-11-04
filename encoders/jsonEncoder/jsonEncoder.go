@@ -28,6 +28,8 @@ func main() {
 	si := ShipInfo{1, "Fighter", cm}
 
 	err = json.NewEncoder(f).Encode(&si)
+	// writes to file "jFile.json"
+	// {"ShipId":1,"ShipClass":"Fighter","Captain":{"name":"Jaro","clearancelevel":10,"accessCodes":["ADA","LAL"]}}
 	PrintFatalError(err)
 }
 
