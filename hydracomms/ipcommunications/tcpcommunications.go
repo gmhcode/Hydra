@@ -2,27 +2,25 @@ package main
 
 import (
 	"bufio"
-	"flag"
 	"fmt"
 	"log"
 	"net"
 	"os"
-	"strings"
 	"time"
 )
 
-func main() {
-	op := flag.String("type", "", "Server (s) or client (c) ?")
-	address := flag.String("addr", ":8000", "address? host:port ")
-	flag.Parse()
+// func main() {
+// 	op := flag.String("type", "", "Server (s) or client (c) ?")
+// 	address := flag.String("addr", ":8000", "address? host:port ")
+// 	flag.Parse()
 
-	switch strings.ToUpper(*op) {
-	case "S":
-		runServer(*address)
-	case "C":
-		runClient(*address)
-	}
-}
+// 	switch strings.ToUpper(*op) {
+// 	case "S":
+// 		runServer(*address)
+// 	case "C":
+// 		runClient(*address)
+// 	}
+// }
 
 func runClient(address string) error {
 	conn, err := net.Dial("tcp", address)
