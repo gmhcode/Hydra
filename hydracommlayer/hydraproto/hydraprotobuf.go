@@ -64,6 +64,7 @@ func (pSender *ProtoHandler) ListenAndDecode(listenaddress string) (chan interfa
 					}
 					select {
 					case outChan <- obj:
+					// case <-time.After(1 * time.Second):
 					default:
 					}
 				}
