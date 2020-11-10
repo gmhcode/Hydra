@@ -20,7 +20,7 @@ func NewMySQLDataStore(conn string) (*mySqlDataStore, error) {
 }
 
 func (msql *mySqlDataStore) AddMember(cm *CrewMember) error {
-	_, err := msql.Exec("INSERT INTO Personnel (Name,SecurityClearance,Position) VALUES (?.?.?)", cm.Name, cm.SecClearance, cm.Position)
+	_, err := msql.Exec("INSERT INTO personnel (Name,SecurityClearance,Position) VALUES (?,?,?)", cm.Name, cm.SecClearance, cm.Position)
 	return err
 }
 
