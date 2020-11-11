@@ -24,7 +24,7 @@ import (
 var hydraWebTemplate *template.Template
 var historylog struct {
 	logs []string
-	sync.RWMutex
+	*sync.RWMutex
 }
 
 func Run() error {
