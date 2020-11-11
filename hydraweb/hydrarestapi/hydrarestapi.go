@@ -14,7 +14,7 @@ type DBlayerconfig struct {
 
 func InitializeAPIHandlers() error {
 	conf := new(DBlayerconfig)
-	err := HydraConfigurator.GetConfiguration(HydraConfigurator.JSON, conf, "../../apiconfig.json")
+	err := HydraConfigurator.GetConfiguration(HydraConfigurator.JSON, conf, "./hydraweb/apiconfig.json")
 	if err != nil {
 		log.Println("Error decoding JSON", err)
 		return err
